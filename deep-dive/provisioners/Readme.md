@@ -16,4 +16,4 @@ In this example:
 - create elastic ip and attach it to ec2 instance. so we will have public non changing ip.
 - print public ip using output.
 - Once do terraform init, terraform apply, you will get the public ip printed on console. 
-- Once hit the public ip, you will have index.html will be displayed on browser.
+- Once hit the public ip, you will have index.html will be displayed on browser.( make sure security group allows port 80 on http )
